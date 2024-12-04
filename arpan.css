@@ -1,0 +1,69 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #f8e1e1;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for greeting */
+.greeting-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, rgba(255, 215, 225, 1) 0%, rgba(245, 179, 212, 1) 100%);
+}
+
+/* Card styling */
+.card {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    font-size: 1.2em;
+    color: #4a4a4a;
+}
+
+/* Header styling */
+.card h1 {
+    color: #f06292;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Message styling */
+.message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ff4081;
+    font-style: italic;
+}
+
+/* Heart styling */
+.heart {
+    font-size: 3em;
+    color: #e91e63;
+    margin: 20px 0;
+}
+
+/* Signature styling */
+.signature {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #f06292;
+    margin-top: 20px;
+}
